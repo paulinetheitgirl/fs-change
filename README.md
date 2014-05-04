@@ -45,7 +45,7 @@ The command on the right will have the following keywords available:
 
 ## TODO
 
-* Add example fs-change
+* Add example .fs-change file
 
 ## Issues?
 If you are on a Windows box, post your issue to this repo. OSX issues are probably better reported to the [original Github project](https://github.com/chbrown/fs-change).
