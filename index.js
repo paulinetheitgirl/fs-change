@@ -1,8 +1,6 @@
 'use strict'; /*jslint es5: true, node: true, indent: 2 */
 var _ = require('underscore');
 var child_process = require('child_process');
-// var winston = require('winston');
-// var logger = new winston.Logger({transports: [new winston.transports.Console()]});
 var logger = require('winston');
 var path = require('path');
 
@@ -11,8 +9,9 @@ var FileWatcher = require('./lib').FileWatcher;
 
 
 var defaults = exports.defaults = {
-  config: path.join(process.env.HOME, '.fs-change'),
-  log: path.join(process.env.HOME, 'Library', 'Logs', 'fs-change.log'),
+  config: path.join(__dirname, '.fs-change'),
+	log: path.join(__dirname, 'fs-change.log'),
+	verbose: true
 };
 
 var install = exports.install = function() {
