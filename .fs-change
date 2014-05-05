@@ -1,0 +1,1 @@
+C:\temp\less\*\styles.less -> cd {dirname} && lessc {basename}.less {basename}.css && echo "Less recompiled"
