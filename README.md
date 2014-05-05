@@ -28,6 +28,8 @@ _This may be a crude process but it's how I got it to work._ If you have somethi
 
 ## `__dirname/.fs-change` format
 
+Make sure your .fs-change file is saved in UTF-8 without BOM format to avoid parser errors. I recommend Notepad++ for this.
+
 Each line has a glob (or simple file) on the left of a '->', and a command on
 the right.
 
@@ -45,7 +47,7 @@ The command on the right will have the following keywords available:
 
 ## TODO
 
-* Add example .fs-change file
+* ~~Add example .fs-change file~~
 
 ## Issues?
 If you are on a Windows box, post your issue to this repo. OSX issues are probably better reported to the [original Github project](https://github.com/chbrown/fs-change).
